@@ -1,11 +1,12 @@
 {
-  "name": "veilui-web",
   "homepage": "https://clxakz.github.io/veilui",
+  "name": "veilui-web",
   "private": false,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build"
   },
